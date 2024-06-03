@@ -14,6 +14,8 @@ export default function App() {
         dispatch(getCoinsData(currencyList));
     })
 
+    console.log('test')
+
     return (
         <Fragment>
             <Header />
