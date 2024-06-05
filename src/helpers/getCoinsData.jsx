@@ -72,8 +72,8 @@ export function getCoinsData(currencyList, refreshDataFlag = false) {
             dispatch(setCryptosAction(cryptosData));
             dispatch(setCoinsDataAction(data));
         }
-        catch (e) {
-            console.log(e.message);
+        catch (event) {
+            console.log(event.message);
         }
     }
 } 
